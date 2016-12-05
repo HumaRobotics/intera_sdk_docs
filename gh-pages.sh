@@ -8,6 +8,7 @@ cp ./$previous_version/index.html ./$current_version
 # Right now we need to update index.html with
 #                - Archived versions
 #                - Timestamps for generation
+# update the top level index.html for current_version
 for pkg in "intera_interface" "intera_core_msgs"
 do
     echo ">>> Documenting $pkg for release $current_version"
