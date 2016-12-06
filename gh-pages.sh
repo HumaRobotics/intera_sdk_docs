@@ -39,6 +39,7 @@ do
     echo ">>> Changing directory back to intera_sdk_docs"
     popd
     echo ">>> Moving generated docs contents for $pkg into $current_version folder"
+    rm -r ./$current_version/$pkg/*
     mv $pkg_path/doc/* ./$current_version/$pkg
     rm -r $pkg_path/doc
 done
