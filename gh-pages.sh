@@ -1,6 +1,6 @@
-#! /usr/bin/bash
+#! /bin/bash
 
-current_version="5.0.4"
+current_version="5.1.0"
 previous_version="5.0.4"
 pkg_list=("intera_interface" "intera_core_msgs")
 mkdir -p ./$current_version
